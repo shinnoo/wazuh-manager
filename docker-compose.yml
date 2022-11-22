@@ -71,7 +71,8 @@ services:
 volumes:
   ossec_api_configuration:
   ossec_etc:
-  ossec_logs: /wazuh-log
+  ossec_logs:
+    - /wazuh-log
   ossec_queue:
   ossec_var_multigroups:
   ossec_integrations:
